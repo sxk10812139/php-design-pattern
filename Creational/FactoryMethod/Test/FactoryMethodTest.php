@@ -24,7 +24,16 @@ class FactoryMethodTest extends \PHPUnit_Framework_TestCase
      */
     public function testCreate(AbstractFactory $factory,$types){
         foreach($types as $type){
-            $factory->create($type);
+            $obj = $factory->create($type);
+            $this->assertInstanceOf('Creational\FactoryMethod\VehicleInterface',$obj);
         }
+    }
+
+    /**
+     * @expectedException \Exception
+     */
+    public function testBadType(){
+        $factory = new ChinaFactory();
+        $factory->create('moto');
     }
 }
