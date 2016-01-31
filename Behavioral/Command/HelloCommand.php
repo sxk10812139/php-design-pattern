@@ -20,7 +20,7 @@ class HelloCommand extends AbstractCommand
     {
         $this->output = $output;
     }
-
+    
     public function execute()
     {
         $this->output->log('hello');

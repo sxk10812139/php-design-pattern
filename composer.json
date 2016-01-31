@@ -15,7 +15,8 @@
   "autoload":{
     "psr-4":{
        "Creational\\":"creational/",
-       "Behavioral\\":"behavioral/"
+       "Behavioral\\":"behavioral/",
+       "Structural\\":"structural/"
     }
   }
 }

@@ -13,8 +13,13 @@ use Creational\Builder\BikeBuilder;
 use Creational\Builder\CarBuilder;
 use Creational\Builder\Director;
 
+
+/**
+ * @property Director $director
+ */
 class DirectorTest extends \PHPUnit_Framework_TestCase
 {
+ 
     protected $director;
     public function setUp(){
         $this->director = new Director();
