@@ -5,7 +5,7 @@
  * DateTime: 16/1/31 02:38
  */
 
-namespace Structural;
+namespace Structural\Adapter;
 
 
 class Ebook implements AbstractEbook

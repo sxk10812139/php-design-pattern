@@ -5,7 +5,7 @@
  * DateTime: 16/1/31 02:39
  */
 
-namespace Structural;
+namespace Structural\Adapter;
 
 
 /**

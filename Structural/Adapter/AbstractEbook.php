@@ -5,7 +5,7 @@
  * DateTime: 16/1/31 02:37
  */
 
-namespace Structural;
+namespace Structural\Adapter\Adapter;
 
 
 interface AbstractEbook

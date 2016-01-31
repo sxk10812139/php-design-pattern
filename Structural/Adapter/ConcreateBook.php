@@ -5,7 +5,7 @@
  * DateTime: 16/1/31 02:36
  */
 
-namespace Structural;
+namespace Structural\Adapter;
 
 
 class ConcreateBook implements Book

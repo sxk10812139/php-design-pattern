@@ -5,11 +5,11 @@
  * DateTime: 16/1/31 02:41
  */
 
-namespace Structural\Test;
+namespace Structural\Adapter\Test;
 
 
-use Structural\Ebook;
-use Structural\EbookAdapter;
+use Structural\Adapter\Ebook;
+use Structural\Adapter\EbookAdapter;
 
 /**
  * @property Ebook $ebook
@@ -26,7 +26,7 @@ class EbookAdapterTest extends \PHPUnit_Framework_TestCase
     }
     
     public function testOpen(){
-//        $this->expectOutputString("ebook start");
+        $this->expectOutputString("ebook start");
         $this->ebookAdapter->setAdaptee($this->ebook);
         $this->ebookAdapter->open();
     }

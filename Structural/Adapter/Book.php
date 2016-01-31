@@ -5,7 +5,7 @@
  * DateTime: 16/1/31 02:35
  */
 
-namespace Structural;
+namespace Structural\Adapter;
 
 
 interface Book
